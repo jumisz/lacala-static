@@ -1,0 +1,25 @@
+<script>
+  $(document).ready(function() {
+    $('#menu-sections a').click(function(ev) {
+      loadSection(ev, sections[ev.target.id]);
+    });
+    loadSection(null, sections['buffets']);
+  });
+
+</script>
+
+<div id="menu-sections" class="menu">
+    <ul>
+        <li>
+            <a href='#' id="buffets">Buffets</a>
+        </li>
+        <li>
+            <a href='#' id="dinners">Dinners</a>
+        </li>
+
+    </ul>
+</div >
+
+<div id="display-section">
+
+</div>
