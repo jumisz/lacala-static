@@ -52,12 +52,12 @@ h1 a:link, h1 a:visited {
 }
 
 #footer p {
-    
+
     width: 100%;
 }
 
 header h1 {
-   
+
     font-family: 'Times New Roman', Georgia, arial, serif;
     font-size: 60px;
     font-weight: normal;
@@ -112,6 +112,44 @@ header h1 {
 }
 
 #menu-sections {
-    position:relative;
+    position: relative;
     margin-top: -30px;
+    border-bottom: 1px solid #ccc;
+    min-height: 45px;
+    
+}
+
+#menu-sections li {
+    float: left;
+    display: block;
+    border-bottom: 0;
+    border: 0.06em solid #ccc;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+     background-color: #eee;
+}
+#menu-sections li a {
+
+    padding: 4px 5px 4px 5px;
+    font-size: 28px;
+    color: #333333;
+   
+}
+
+#menu-sections li.selected {
+    z-index: 1;
+    background-color: white;
+    border-bottom: 1px solid white;
+}
+
+#menu-sections li.first {
+    border-top-left-radius: 5px;
+}
+
+#menu-sections li.last {
+    border-top-right-radius: 5px;
+}
+.clear {
+    clear: both;
 }

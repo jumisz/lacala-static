@@ -1,24 +1,33 @@
 <script>
   $(document).ready(function() {
-    $('#menu-sections a').click(function(ev) {
+    $('#menu-sections li').click(function(ev) {
+      $('#menu-sections li').removeClass('selected');
+      $(this).addClass('selected');
       loadSection(ev, sections[ev.target.id]);
     });
     loadSection(null, sections['buffets']);
+
   });
+
+  
 
 </script>
 
 <div id="menu-sections" class="menu">
     <ul>
-        <li>
+        <li class="selected first">
             <a href='#' id="buffets">Buffets</a>
         </li>
-        <li>
+        <li class="last">
             <a href='#' id="dinners">Dinners</a>
         </li>
 
     </ul>
 </div >
+
+<div class="clear">
+    <!-- clear -->
+</div>
 
 <div id="display-section">
 

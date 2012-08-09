@@ -14,6 +14,7 @@ var loadSection = function(ev, section) {
     ev.preventDefault();
   }
   $('#display-section').load(section.content);
+  
 
 };
 
@@ -59,6 +60,8 @@ $(document).ready(function() {
   $('#menu a').click(function(ev) {
     loadContent(ev,pages[ev.target.id]);
   });
+  
+ 
  
 });
 
