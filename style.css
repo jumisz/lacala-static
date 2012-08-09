@@ -116,25 +116,23 @@ header h1 {
     margin-top: -30px;
     border-bottom: 1px solid #ccc;
     min-height: 45px;
-    
 }
 
 #menu-sections li {
     float: left;
-    display: block;
+    display: inline;
     border-bottom: 0;
     border: 0.06em solid #ccc;
     line-height: 40px;
     padding-left: 20px;
     padding-right: 20px;
-     background-color: #eee;
+    background-color: #eee;
 }
 #menu-sections li a {
 
     padding: 4px 5px 4px 5px;
     font-size: 28px;
     color: #333333;
-   
 }
 
 #menu-sections li.selected {
@@ -152,4 +150,8 @@ header h1 {
 }
 .clear {
     clear: both;
+}
+
+#dish {
+    width: 600px;
 }

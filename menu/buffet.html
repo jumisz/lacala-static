@@ -1,14 +1,15 @@
-<script>
+<script type="text/javascript">
     $(document).ready(function() {
-        $('.fancybox').fancybox();
-
+        $('.fancybox').fancybox({
+            width: 800
+        });
     });
 </script>
 <div id="left">
     <ul>
         <li>
             Salmorejo (fresh tomatoes, garlic, bread and olive oil). Delicious in a little
-            bowl sprinkled with egg and Iberico ham. <a class="fancybox" href="/dishes/salmorejo.html">See here for recipe</a>
+            bowl sprinkled with egg and Iberico ham. <a class="fancybox"  data-fancybox-type="ajax" href="dishes/salmorejo.html">See here for recipe</a>
         </li>
         <li>
             Gazpacho (beautiful and healthy raw vegetable drink – perfect on a hot
