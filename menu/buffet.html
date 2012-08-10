@@ -1,15 +1,16 @@
 <script type="text/javascript">
     $(document).ready(function() {
+        $('.buffet-menus').load('menu/buffet_menus.html')
         $('.fancybox').fancybox({
             width: 800
         });
     });
 </script>
-<div id="left">
+<div id="left" class="buffet">
     <ul>
         <li>
             Salmorejo (fresh tomatoes, garlic, bread and olive oil). Delicious in a little
-            bowl sprinkled with egg and Iberico ham. <a class="fancybox"  data-fancybox-type="ajax" href="dishes/salmorejo.html">See here for recipe</a>
+            bowl sprinkled with egg and Iberico ham. <a class="fancybox" data-fancybox-type="ajax" href="dishes/salmorejo.html">See here for recipe</a>
         </li>
         <li>
             Gazpacho (beautiful and healthy raw vegetable drink – perfect on a hot
@@ -18,7 +19,7 @@
         </li>
         <li>
             Flamenquines (Pork loin, stuffed with Serrano ham). This dish is from
-            Cordoba in Andalucia)
+            Cordoba in Andalucia). <a class="fancybox" data-fancybox-type="ajax" href="dishes/flamenquin.html">See recipe</a>
 
         </li>
         <li>
@@ -87,3 +88,4 @@
     </ul>
 
 </div>
+<div class="buffet-menus"></div>

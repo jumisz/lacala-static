@@ -4,7 +4,6 @@ var loadContent = function(ev, page) {
     ev.preventDefault();
   }
 
-  $('#image').html("<img class='shadow' src='images/" + page.img + "'>");
   $('#main').load(page.content);
 
 };

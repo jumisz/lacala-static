@@ -6,7 +6,7 @@ html {
 
 body {
     background: #fff;
-    width: 940px;
+    width: 980px;
     margin: 50px auto;
     font-family: 'Times New Roman', Georgia, arial, serif;
 }
@@ -32,7 +32,7 @@ h1 a:link, h1 a:visited {
 }
 
 #main {
-    width: 540px;
+    width: 100%;
     min-height: 800px;
     margin-top: -10px;
     float: left;
@@ -115,14 +115,15 @@ header h1 {
     position: relative;
     margin-top: -30px;
     border-bottom: 1px solid #ccc;
-    min-height: 45px;
+    min-height: 42px;
 }
 
 #menu-sections li {
+    list-style-type:none;
     float: left;
     display: inline;
     border-bottom: 0;
-    border: 0.06em solid #ccc;
+    border: 1px solid #ccc;
     line-height: 40px;
     padding-left: 20px;
     padding-right: 20px;
@@ -131,7 +132,7 @@ header h1 {
 #menu-sections li a {
 
     padding: 4px 5px 4px 5px;
-    font-size: 28px;
+    font-size: 18px;
     color: #333333;
 }
 
@@ -154,4 +155,46 @@ header h1 {
 
 #dish {
     width: 600px;
+}
+
+/*
+ * Buffet styling
+ */
+.buffet {
+    width: 60%;
+    float:left;
+}
+
+.buffet-menus h2{
+   text-align: center; 
+}
+
+.buffet-menus {
+    width: 38%;
+    float:right;
+    padding-left: 10px;
+    border-left: 2px dashed #ccc;
+}
+
+.menu-tab {
+    width: 250px;
+    min-height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.menu-tab h3 {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.menu-tab li {
+    padding-right: 10px;
 }
