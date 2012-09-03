@@ -1,26 +1,30 @@
+@import url(css/lato.css);
 html {
     margin: 0;
     padding: 0;
-    background: white center top no-repeat;
+  
 }
 
 body {
     background: #fff;
-    width: 980px;
+    width: 800px;
     margin: 50px auto;
-    font-family: 'Times New Roman', Georgia, arial, serif;
+    font: 18px/30px 'LatoLight', Arial, sans-serif;
+    color: #666666;
 }
+
+
 
 a {
     text-decoration: none;
 }
 
 a:link, a:visited {
-    color: #08AA22;
+    color: #FF8673;
 }
 
 a:hover {
-    color: #089900;
+    color: #FF5A40;
 }
 
 h1 a:link, h1 a:visited {
@@ -56,40 +60,41 @@ h1 a:link, h1 a:visited {
     width: 100%;
 }
 
-header h1 {
+header {   
+    height: 100px;
+    background: url(images/sunflower.jpg) left no-repeat;
+}
 
-    font-family: 'Times New Roman', Georgia, arial, serif;
-    font-size: 60px;
-    font-weight: normal;
-    padding-top: 0px;
+header h1 {
+    font: 64px/76px 'LatoItalic', arial, serif;
+    padding-top: 70px;
     padding-bottom: 8px;
-    padding-left: 0px;
-    margin: 0px;
+    padding-left: 30px;
+    margin: auto;
+}
+
+h1,h2 {
+  color: #FF8673;
 }
 
 .logo {
-    margin-top: -80px;
-    margin-left: 100px;
+   margin-left: 100px;
+   margin-top: -60px; 
+   height: 120px;
+    
 }
 
 #main p {
     margin: 20px 0;
-    font-size: 18px;
-    line-height: 20px;
+   
 }
 
 #menu {
     padding: 10px 0px;
     text-align: left;
-    font-size: 28px;
+    font: 36px/40px 'LatoLight', Arial, sans-serif;
 }
 
-#menu h2 {
-    text-transform: uppercase;
-    color: #333;
-    letter-spacing: 1px;
-    line-height: 20px;
-}
 
 .menu ul {
     list-style-type: none;
@@ -98,7 +103,7 @@ header h1 {
 .menu li {
     display: inline;
     padding-right: 30px;
-    line-height: 20px;
+    
 }
 
 .contact {
@@ -124,16 +129,16 @@ header h1 {
     display: inline;
     border-bottom: 0;
     border: 1px solid #ccc;
-    line-height: 40px;
+    line-height: 41px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #eee;
+   
 }
 #menu-sections li a {
 
     padding: 4px 5px 4px 5px;
     font-size: 18px;
-    color: #333333;
+    
 }
 
 #menu-sections li.selected {
@@ -154,6 +159,10 @@ header h1 {
 }
 
 #dish {
+    width: 650px;
+}
+
+#dish p {
     width: 600px;
 }
 
@@ -188,7 +197,7 @@ header h1 {
 .menu-tab h3 {
     text-align: center;
     border-bottom: 1px solid #ccc;
-    background-color: #eee;
+   
     margin-top: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
