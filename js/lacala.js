@@ -58,8 +58,7 @@ $(document).ready(function() {
     loadContent(ev, pages[ev.target.id]);
   });
 
-  Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
-  Galleria.run('#gallery');
+  
 
 });
 

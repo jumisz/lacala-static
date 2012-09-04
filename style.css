@@ -146,7 +146,12 @@ h1, h2 {
 #menu-sections li a {
 
     padding: 4px 5px 4px 5px;
-    font-size: 18px;
+    
+}
+
+#menu-sections h2 {
+    margin-top: 6px;
+    margin-bottom: 5px;
 }
 
 #menu-sections li.selected {
