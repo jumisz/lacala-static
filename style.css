@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    font-size: 18px;
+}
+
 a:link, a:visited {
     color: #FF8673;
 }
@@ -170,7 +174,7 @@ h1,h2 {
  * Buffet styling
  */
 .buffet {
-    width: 60%;
+    width: 55%;
     float:left;
 }
 
@@ -181,8 +185,8 @@ h1,h2 {
 .buffet-menus {
     width: 38%;
     float:right;
-    padding-left: 10px;
-    border-left: 2px dashed #ccc;
+    padding-left: 20px;
+    
 }
 
 .menu-tab {
@@ -197,7 +201,7 @@ h1,h2 {
 .menu-tab h3 {
     text-align: center;
     border-bottom: 1px solid #ccc;
-   
+    
     margin-top: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
