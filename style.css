@@ -21,8 +21,16 @@ a {
     text-decoration: none;
 }
 
+h1 {
+   font: 28px/30px 'LatoLight', Arial, sans-serif;  
+}
+
+h2 {
+   font: 24px/30px 'LatoLight', Arial, sans-serif;  
+}
+
 h3 {
-    font-size: 18px;
+    font: 18px/20px 'LatoLight', Arial, sans-serif;
 }
 
 a:link, a:visited {
