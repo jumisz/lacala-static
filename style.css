@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-   
+
 }
 
 a {
@@ -22,11 +22,11 @@ a {
 }
 
 h1 {
-   font: 28px/30px 'LatoLight', Arial, sans-serif;  
+    font: 28px/30px 'LatoLight', Arial, sans-serif;
 }
 
 h2 {
-   font: 24px/30px 'LatoLight', Arial, sans-serif;  
+    font: 24px/30px 'LatoLight', Arial, sans-serif;
 }
 
 h3 {
@@ -74,51 +74,46 @@ h1 a:link, h1 a:visited {
     width: 100%;
 }
 
-header {   
+header {
     height: 100px;
-   
 }
 
 header h1 {
     font: 80px/80px 'Arapey-Italic', Arial, sans-serif;
-    
     padding-top: 70px;
     padding-bottom: 8px;
     padding-left: 0px;
-    margin: auto;
+    margin: 0px;
 }
 
-h1,h2 {
-  color: #FF8673;
+h1, h2 {
+    color: #FF8673;
 }
 
 .logo {
-   margin-left: 100px;
-   margin-top: -60px; 
-   height: 120px;
-    
+    margin-left: 0px;
+    margin-top: -60px;
+    height: 120px;
 }
 
 #main p {
     margin: 20px 0;
-   
 }
 
 #menu {
-   
+
     text-align: left;
     font: 36px/40px 'LatoLight', Arial, sans-serif;
 }
 
-
 .menu ul {
+    padding-left: 0px;
     list-style-type: none;
 }
 
 .menu li {
     display: inline;
     padding-right: 30px;
-    
 }
 
 .contact {
@@ -133,13 +128,13 @@ h1,h2 {
 
 #menu-sections {
     position: relative;
-    margin-top: -30px;
+   
     border-bottom: 1px solid #ccc;
     min-height: 42px;
 }
 
 #menu-sections li {
-    list-style-type:none;
+    list-style-type: none;
     float: left;
     display: inline;
     border-bottom: 0;
@@ -147,13 +142,11 @@ h1,h2 {
     line-height: 41px;
     padding-left: 20px;
     padding-right: 20px;
-   
 }
 #menu-sections li a {
 
     padding: 4px 5px 4px 5px;
     font-size: 18px;
-    
 }
 
 #menu-sections li.selected {
@@ -187,18 +180,17 @@ h1,h2 {
  */
 .buffet {
     width: 55%;
-    float:left;
+    float: left;
 }
 
-.buffet-menus h2{
-   text-align: center; 
+.buffet-menus h2 {
+    text-align: center;
 }
 
 .buffet-menus {
     width: 38%;
-    float:right;
+    float: right;
     padding-left: 20px;
-    
 }
 
 .menu-tab {
@@ -213,13 +205,17 @@ h1,h2 {
 .menu-tab h3 {
     text-align: center;
     border-bottom: 1px solid #ccc;
-    
     margin-top: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
-    
 }
 
 .menu-tab li {
     padding-right: 10px;
+}
+
+#gallery {
+    width: 800px;
+    height: 400px;
+    background: #000;
 }

@@ -1,5 +1,5 @@
 var loadContent = function(ev, page) {
-  
+
   if (ev != null) {
     ev.preventDefault();
   }
@@ -13,7 +13,6 @@ var loadSection = function(ev, section) {
     ev.preventDefault();
   }
   $('#display-section').load(section.content);
-  
 
 };
 
@@ -24,7 +23,6 @@ var sections = {
   dinners : {
     content : 'menu/dinner.html'
   }
- 
 
 };
 
@@ -55,14 +53,13 @@ var pages = {
 
 $(document).ready(function() {
   loadContent(null, pages.index);
-  
+
   $('#menu a').click(function(ev) {
-    loadContent(ev,pages[ev.target.id]);
+    loadContent(ev, pages[ev.target.id]);
   });
-  
-  
-  
- 
- 
+
+  Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
+  Galleria.run('#gallery');
+
 });
 
